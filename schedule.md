@@ -1,0 +1,39 @@
+# 進行スケジュール
+- shellコマンド基礎
+    - 超頻出:  cd, ls, pwd, ctrl + c, mv, cp, rm( -rf), sudo, ctrl + d(exit), cat,  vi, mkdir
+    - 頻出: tail -f, grep, chmod, chown, ssh, find, touch, source, scp
+    - 一連のフローとして全コマンドを体験したい。
+    - viの使い方をやったほうが良い
+- MySQL
+    - DBの仕組み。データ型など。
+    - SQLのCRUD
+    - 複数テーブルの利用
+- ruby 環境構築
+    - パーフェクトruby on rails 冒頭25pまで
+    - rake, gem, bundleの説明が全くわからない
+        - rakeとは、railsの用意している便利な処理を使うためのコマンド。処理は自作することもできる。
+        - gemとは第三者の作ったライブラリを簡単に導入・管理できるコマンド
+        - bundleはgemを簡単に管理できるコマンド
+        - パーフェクトruby on rails 冒頭26p 「設定より規約」と「DRY」についてもついでに解説
+- ruby基礎文法
+    - [dotinstall Ruby入門](http://dotinstall.com/lessons/basic_ruby_v2)
+    - 用語解説が少ないので、ググるor聞く
+- rails MVC
+    - [Ruby on Rails 4 アプリケーションプログラミング](http://www.amazon.co.jp/Ruby-Rails-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-%E5%B1%B1%E7%94%B0-%E7%A5%A5%E5%AF%9B/dp/4774164100/ref=sr_1_1?ie=UTF8&qid=1439123230&sr=8-1&keywords=rails)
+- git(github)
+    - 差分管理のメリット
+    - add, commit
+    - branchとは？
+        - どこに基準に差分を加えるか
+        - branchはラベルにすぎない
+        - branch, checkout
+        - 2つのブランチを1つにする（marge）
+        - conflict
+    - リモートとローカル
+        - 基本操作 gitとgithub
+        - 追跡ブランチ
+        - 基本操作 fetch と push(pull)発展操作 
+        - 発展操作 cherry-pick, rebase, squash, fix-up, clean, reset
+    - gitの導入
+        - init, clone
+        - .gitignore
