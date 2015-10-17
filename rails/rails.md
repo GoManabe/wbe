@@ -1,8 +1,12 @@
 # 概要
 Ruby on Railsに関する部分の解説を行う。
 直接Railsを解説するのではなく、あくまで習得の道筋を記すものとする。
+また、Ruby on Rails開発に必要な周辺知識として、一部java scriptなどを取り扱う。
 
-# 推奨参考書籍
+# 使用教材
+> ドットインストール Ruby on Rails 4入門 (全28回)
+> http://dotinstall.com/lessons/basic_rails_v2
+
 > Ruby on Rails 4 アプリケーション・プログラミング
 > 山田祥寛著/技術評論社
 
@@ -20,12 +24,20 @@ Ruby on Railsに関する部分の解説を行う。
   - View開発基礎
   - Controller開発基礎
   - Model開発基礎
-  - ORマッパー
+  - ActiveRecord, ORマッパー
 - デバッグ基礎
   - URLから問題箇所を発見する方法
   - pryを使ったデバッグ
   - Chromeインスペクタを使用したViewデバッグ
   - JavaScriptのコンソールデバッグ
+
+# カリキュラム
+- ドットインストールのRuby on Rails講座を1周（2時間程度）
+- Ruby on Rails 4 アプリケーション・プログラミングを周回する。
+  - 1周目 
+  - 2週目 
+  - （3周目） 
+
 
 
 # 実際の取組みログ
